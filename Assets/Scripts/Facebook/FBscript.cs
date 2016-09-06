@@ -50,7 +50,7 @@ public class FBscript : MonoBehaviour {
 
 			if (FBmanager.Instance.ProfileName != null) {
 				Text UserName = DialogUsername.GetComponent<Text> ();
-				UserName.text = "Hi, " + FBmanager.Instance.ProfileName;
+				UserName.text = FBmanager.Instance.ProfileName + ", welcome to city!";
 			} else {
 				StartCoroutine ("WaitForProfileName");
 			}

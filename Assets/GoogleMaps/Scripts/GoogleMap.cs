@@ -13,9 +13,9 @@ public class GoogleMap : MonoBehaviour
 	public bool loadOnStart = true;
 	public bool autoLocateCenter = true;
 	public GoogleMapLocation centerLocation;
-	public int zoom = 13;
+	public int zoom = 14;
 	public MapType mapType;
-	public int size = 600200;
+	public int size = 2000;
 	public bool doubleResolution = false;
 	public GoogleMapMarker[] markers;
 	public GoogleMapPath[] paths;
@@ -58,8 +58,8 @@ public class GoogleMap : MonoBehaviour
 		}
 		else
 		{
-			//            centerLocation.latitude = 34.0224f;
-			  //        centerLocation.longitude = -118.2851f;
+			      //  centerLocation.latitude = 34.0224f;
+			      //  centerLocation.longitude = -118.2851f;
 			centerLocation.latitude = Input.location.lastData.latitude;
 			centerLocation.longitude = Input.location.lastData.longitude;
 			// Access granted and location value could be retrieved

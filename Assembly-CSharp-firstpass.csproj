@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AE39DA5D-00CC-1B97-BBBB-4879BCC453DB}</ProjectGuid>
+    <ProjectGuid>{24EBC782-E15B-B6A9-EE4D-4D45D529558B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -70,13 +70,13 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity">
- <HintPath>/Users/leejaeho/Unity/Cityworld/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ <HintPath>/Users/leejaeho/CityWorld/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity.IOS">
- <HintPath>/Users/leejaeho/Unity/Cityworld/Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll</HintPath>
+ <HintPath>/Users/leejaeho/CityWorld/Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll</HintPath>
  </Reference>
  <Reference Include="UniWeb-Free">
- <HintPath>/Users/leejaeho/Unity/Cityworld/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
+ <HintPath>/Users/leejaeho/CityWorld/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

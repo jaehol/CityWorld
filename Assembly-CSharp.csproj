@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8B0E8BC-57ED-046F-7472-509C219DD47A}</ProjectGuid>
+    <ProjectGuid>{E1E607C5-F949-D0D1-A89E-D4A35EABFE92}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,12 +62,12 @@
      <Compile Include="Assets\Scripts\Actions\ActionBehavior.cs" />
      <Compile Include="Assets\Scripts\Actions\CreateBuildingAction.cs" />
      <Compile Include="Assets\Scripts\ActionsManager.cs" />
+     <Compile Include="Assets\Scripts\Camera\BuildWindow.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Camera\DriveWindow.cs" />
-     <Compile Include="Assets\Scripts\Camera\EndDriveWindow.cs" />
+     <Compile Include="Assets\Scripts\Camera\EndBuild.cs" />
      <Compile Include="Assets\Scripts\Camera\GenericWindow.cs" />
      <Compile Include="Assets\Scripts\Camera\MainWindow.cs" />
-     <Compile Include="Assets\Scripts\Camera\MyCarWindow.cs" />
+     <Compile Include="Assets\Scripts\Camera\MyCityWindow.cs" />
      <Compile Include="Assets\Scripts\Camera\StartWindow.cs" />
      <Compile Include="Assets\Scripts\Camera\WindowManager.cs" />
      <Compile Include="Assets\Scripts\CameraCradle.cs" />
@@ -113,18 +113,18 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity">
- <HintPath>/Users/leejaeho/Unity/Cityworld/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+ <HintPath>/Users/leejaeho/CityWorld/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity.IOS">
- <HintPath>/Users/leejaeho/Unity/Cityworld/Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll</HintPath>
+ <HintPath>/Users/leejaeho/CityWorld/Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll</HintPath>
  </Reference>
  <Reference Include="UniWeb-Free">
- <HintPath>/Users/leejaeho/Unity/Cityworld/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
+ <HintPath>/Users/leejaeho/CityWorld/Assets/UniWeb-Free/UniWeb-Free.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{AE39DA5D-00CC-1B97-BBBB-4879BCC453DB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{24EBC782-E15B-B6A9-EE4D-4D45D529558B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

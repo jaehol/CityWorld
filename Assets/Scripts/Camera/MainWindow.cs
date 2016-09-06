@@ -4,11 +4,11 @@ using System.Collections;
 public class MainWindow : GenericWindow {
 	public GameObject ingameMenu;
 
-	public void Drive(){
+	public void Build(){
 		manager.Open (2);
 	}
 
-	public void MyCar(){
+	public void MyCity(){
 		manager.Open (4);
 	}
 
