@@ -32,7 +32,7 @@ public class Map : MonoBehaviour {
 		var pos = point - Corner1.position;
 		var mapPos = new Vector2 (
 			point.x / terrainSize.x * mapRect.rect.width,
-			point.z / terrainSize.y * mapRect.rect.height);
+			(point.z / terrainSize.y * mapRect.rect.height) + 250);
 		return mapPos;
 	}
 	

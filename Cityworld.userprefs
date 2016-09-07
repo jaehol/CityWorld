@@ -1,15 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FindBuildingSite.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager/RtsManager.cs">
     <Files>
+      <File FileName="Assets/Scripts/Manager/RtsManager.cs" Line="58" Column="1" />
       <File FileName="Assets/Scripts/Interactive.cs" Line="1" Column="1" />
-      <File FileName="Assets/GoogleMaps/Scripts/GoogleMap.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Actions/CreateBuildingAction.cs" Line="24" Column="25" />
+      <File FileName="Assets/GoogleMaps/Scripts/GoogleMap.cs" Line="59" Column="7" />
+      <File FileName="Assets/Scripts/Actions/CreateBuildingAction.cs" Line="17" Column="40" />
       <File FileName="Assets/Scripts/FindBuildingSite.cs" Line="26" Column="5" />
-      <File FileName="Assets/Scripts/Manager/ActionsManager.cs" Line="48" Column="5" />
-      <File FileName="Assets/Scripts/Manager/RtsManager.cs" Line="41" Column="12" />
+      <File FileName="Assets/Scripts/Manager/ActionsManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Manager/MouseManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Camera/BuildWindow.cs" Line="8" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

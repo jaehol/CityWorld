@@ -58,8 +58,8 @@ public class GoogleMap : MonoBehaviour
 		}
 		else
 		{
-			        centerLocation.latitude = 34.0224f;
-			        centerLocation.longitude = -118.2851f;
+			        centerLocation.latitude = 34.0284f;
+			        centerLocation.longitude = -118.2821f;
 			//centerLocation.latitude = Input.location.lastData.latitude;
 			//centerLocation.longitude = Input.location.lastData.longitude;
 			// Access granted and location value could be retrieved
