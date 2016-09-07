@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BuildWindow : GenericWindow {
 
-	public void EndBuild(){
-		manager.Open (3);
+	public void Main(){
+		manager.Open (1);
 	}
 }

@@ -11,14 +11,4 @@ public class MainWindow : GenericWindow {
 	public void MyCity(){
 		manager.Open (4);
 	}
-
-	public void onPause(){
-		Time.timeScale = 0;
-		ingameMenu.SetActive (true);
-	}
-
-	public void onResume(){
-		Time.timeScale = 1f;
-		ingameMenu.SetActive (false);
-	}
 }

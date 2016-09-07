@@ -17,6 +17,6 @@ public class Highlight : Interaction {
 
 	// Use this for initialization
 	void Start () {
-		DisplayItem.SetActive (false);
+		DisplayItem.SetActive (true);
 	}
 }
